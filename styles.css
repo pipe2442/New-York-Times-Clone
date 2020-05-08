@@ -1,3 +1,6 @@
+header {
+  background-color: white;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -40,12 +43,25 @@
 }
 
 article {
-margin: 0 150px 0 150px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin: 0 auto 30px auto;
+  width: 700px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .mainImg {
+  display: block;
   width: 1200px;
   height: 670px;
+  margin: 0 auto;
+  background-color: red;
 }
 
 .secondImg {
@@ -54,19 +70,97 @@ margin: 0 150px 0 150px;
 }
 
 .figMain {
-  width: 850px;
+  width: 1200px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size:15px;
-  color:rgb(102, 102, 102);
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  margin: 10px auto 40px auto;
 }
 
 .figMain span {
-  color:#888888;
+  color: #888888;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 13px;
 }
 
-article p {
-  width: 500px;
+.h2anchor {
+  width: 600px;
   margin: 0 auto;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.social {
+  width: 600px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  align-items: center;
+}
+
+.social img {
+  margin-left: 5px;
+}
+
+article p {
+  width: 600px;
+  margin: 0 auto 15px auto;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p a {
+  color: #326891;
+}
+
+.secondh2 {
+  width: 600px;
+  margin: 30px auto 30px auto;
+}
+
+.inflation {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "one two three four"
+    "five six seven eight";
+}
+
+.grid {
+  width: 200px;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
 }
