@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0px 150px 0px 100px;
-  background-color: red;
 }
 
 .nav-bar img {
@@ -18,7 +17,6 @@
   color: black;
   position: relative;
   bottom: 3px;
-  background-color: royalblue;
 }
 
 .login-button {
