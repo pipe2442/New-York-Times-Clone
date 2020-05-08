@@ -1,0 +1,41 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 0px 100px;
+  background-color: red;
+}
+
+.nav-bar img {
+  margin-right: 30px;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  color: black;
+  position: relative;
+  bottom: 3px;
+  background-color: royalblue;
+}
+
+.login-button {
+  width: 60px;
+}
+
+.nav-bar input {
+  max-width: 115px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #567b95;
+  border: none;
+  color: white;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
