@@ -64,11 +64,6 @@ h1 {
   background-color: red;
 }
 
-.secondImg {
-  width: 900px;
-  height: 600px;
-}
-
 .figMain {
   width: 1200px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -147,7 +142,7 @@ p a {
 }
 
 .inflationText {
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
   font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 18px;
@@ -164,7 +159,7 @@ p a {
   font-weight: 300;
 }
 
-.grid img{
+.grid img {
   height: 130px;
 }
 
@@ -193,16 +188,64 @@ p a {
   grid-area: eight;
 }
 
-.inflationAuth{
+.inflationAuth {
   width: 1000px;
   margin: 55px auto 70px auto;
   justify-content: left;
-  
 }
 
-hr{
+hr {
   width: 60px;
   height: 1px;
   background-color: #000;
   margin-left: 0;
+}
+
+iframe {
+  display: block;
+  width: 600px;
+  height: 315px;
+  margin: 40px auto 10px auto;
+  border: 0;
+}
+
+.video-caption {
+  width: 600px;
+  margin: 0 auto 50px auto;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+.video-caption span {
+  color: #888888;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.secondImg {
+  width: 700px;
+  height: 450px;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-caption {
+  width: 700px;
+  margin: 10px auto 40px auto;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+.image-caption span {
+  color: #888888;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
 }
