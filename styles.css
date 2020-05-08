@@ -48,9 +48,9 @@ article {
 
 h1 {
   margin: 0 auto 30px auto;
-  width: 700px;
+  width: 600px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 48px;
   font-weight: 700;
   font-style: italic;
@@ -115,6 +115,7 @@ article p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 20px;
   line-height: 30px;
+  font-weight: 400;
 }
 
 p a {
@@ -124,6 +125,10 @@ p a {
 .secondh2 {
   width: 600px;
   margin: 30px auto 30px auto;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .inflation {
@@ -136,8 +141,31 @@ p a {
     "five six seven eight";
 }
 
+.inflationTitle {
+  width: 1000px;
+  margin: 30px auto 0 auto;
+}
+
+.inflationText {
+  color:rgb(102, 102, 102);
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .grid {
   width: 200px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.grid img{
+  height: 130px;
 }
 
 .one {
@@ -163,4 +191,18 @@ p a {
 }
 .eight {
   grid-area: eight;
+}
+
+.inflationAuth{
+  width: 1000px;
+  margin: 55px auto 70px auto;
+  justify-content: left;
+  
+}
+
+hr{
+  width: 60px;
+  height: 1px;
+  background-color: #000;
+  margin-left: 0;
 }
