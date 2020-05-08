@@ -1,12 +1,13 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 0px 150px 0px 100px;
+  margin: 0 150px 0 100px;
 }
 
 .nav-bar img {
   margin-right: 30px;
 }
+
 .nav-bar a {
   text-decoration: none;
   font-size: 14.25px;
@@ -36,4 +37,36 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+article {
+margin: 0 150px 0 150px;
+}
+
+.mainImg {
+  width: 1200px;
+  height: 670px;
+}
+
+.secondImg {
+  width: 900px;
+  height: 600px;
+}
+
+.figMain {
+  width: 850px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size:15px;
+  color:rgb(102, 102, 102);
+}
+
+.figMain span {
+  color:#888888;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 13px;
+}
+
+article p {
+  width: 500px;
+  margin: 0 auto;
 }
