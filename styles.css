@@ -396,13 +396,58 @@ iframe {
   font-size: 16px;
   line-height: 22px;
   font-weight: 700;
-
 }
-.spaceAstronomy{
+.spaceAstronomy {
   flex-grow: 3.4;
   margin-right: 20px;
 }
 
 .mostPopular {
   flex-grow: 1;
+}
+
+.footer-title {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto 15px;
+  justify-content: space-between;
+  border-top: 2px solid;
+  border-color: hsl(0, 5%, 76%);
+  padding-top: 10px;
+}
+.footer-title a {
+  color: #567b95;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 11px;
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: none;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+
+.footerDiv {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footerDiv a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 16px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+h3 {
+  color: #333333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
 }
