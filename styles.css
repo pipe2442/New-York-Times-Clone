@@ -1,14 +1,24 @@
 header {
   background-color: white;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 0 150px 0 100px;
+  margin: 5px 150px 0 100px;
 }
 
 .nav-bar img {
   margin-right: 30px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+p a {
+  color: #326891;
 }
 
 .nav-bar a {
@@ -73,7 +83,7 @@ h1 {
 }
 
 .figMain span {
-  color: #888888;
+  color: #888;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 13px;
 }
@@ -86,17 +96,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 a {
-  text-decoration: none;
-  color: black;
-}
-
 .social {
   width: 600px;
   margin: 0 auto 30px auto;
   display: flex;
   justify-content: space-between;
-  /* background-color: red; */
   align-items: center;
 }
 
@@ -111,10 +115,6 @@ article p {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-}
-
-p a {
-  color: #326891;
 }
 
 .secondh2 {
@@ -166,24 +166,31 @@ p a {
 .one {
   grid-area: one;
 }
+
 .two {
   grid-area: two;
 }
+
 .three {
   grid-area: three;
 }
+
 .four {
   grid-area: four;
 }
+
 .five {
   grid-area: five;
 }
+
 .six {
   grid-area: six;
 }
+
 .seven {
   grid-area: seven;
 }
+
 .eight {
   grid-area: eight;
 }
@@ -216,10 +223,11 @@ iframe {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #666666;
+  color: #666;
 }
+
 .video-caption span {
-  color: #888888;
+  color: #888;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 13px;
   line-height: 18px;
@@ -240,10 +248,11 @@ iframe {
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
-  color: #666666;
+  color: #666;
 }
+
 .image-caption span {
-  color: #888888;
+  color: #888;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 13px;
   line-height: 18px;
@@ -256,6 +265,10 @@ iframe {
   color: rgb(102, 102, 102);
   line-height: 16px;
   font-weight: 400;
+}
+
+.articleCaption a {
+  color: rgb(102, 102, 102);
 }
 
 .comments {
@@ -296,23 +309,26 @@ iframe {
     "seven eight nine ten";
   grid-auto-rows: minmax(600px auto);
 }
-.container figcaption {
+
+.container span {
+  display: block;
   text-align: right;
-  color: #999999;
+  color: #999;
   line-height: 12.3px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 11px;
 }
+
 .container h2 {
   line-height: 22px;
   font-weight: 500;
   font-size: 18px;
-  font-weight: 400;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
+
 .container p {
   font-size: 12px;
-  color: #999999;
+  color: #999;
   line-height: 20px;
   font-weight: 500;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -321,6 +337,7 @@ iframe {
 .container img {
   height: 188px;
 }
+
 .item {
   width: 280px;
 }
@@ -377,7 +394,7 @@ iframe {
   font-size: 19px;
   font-weight: 500;
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .popular-div {
@@ -398,6 +415,7 @@ iframe {
   line-height: 22px;
   font-weight: 700;
 }
+
 .spaceAstronomy {
   flex-grow: 3.4;
   margin-right: 20px;
@@ -416,6 +434,7 @@ iframe {
   border-color: hsl(0, 5%, 76%);
   padding-top: 10px;
 }
+
 .footer-title a {
   color: #567b95;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -434,10 +453,11 @@ iframe {
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .footerDiv a {
   display: block;
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 14px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   line-height: 16px;
@@ -446,18 +466,19 @@ iframe {
 }
 
 h3 {
-  color: #333333;
+  color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
   font-weight: 700;
 }
+
 .subscribeFooter {
   border-left: 1px solid rgb(226, 226, 226);
   padding-left: 20px;
 }
 
-.educationR{
+.educationR {
   border-bottom: 1px solid rgb(226, 226, 226);
   padding-bottom: 7px;
 }
@@ -471,22 +492,21 @@ h3 {
   padding-top: 18px;
 }
 
-.copyright a{
+.copyright a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   line-height: 11px;
   font-weight: 400;
   text-decoration: none;
-  color:#666666;
+  color: #666;
 }
-
-.copyright a:hover{
-  text-decoration: underline solid rgb(102, 102, 102);
-}
-
 
 .subscribeFooter span a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
-  line-height:21px;
+  line-height: 21px;
+}
+
+.copyright a:hover {
+  text-decoration: underline solid rgb(102, 102, 102);
 }
