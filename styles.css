@@ -382,3 +382,27 @@ iframe {
 .popular-div {
   border-top: 1px solid rgb(226, 226, 226);
 }
+
+.suggestedTitles {
+  display: flex;
+  width: 1200px;
+  margin: 65px auto 0;
+}
+
+.suggestedTitles h2 {
+  border-top: 1px solid;
+  padding-top: 20px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+
+}
+.spaceAstronomy{
+  flex-grow: 3.4;
+  margin-right: 20px;
+}
+
+.mostPopular {
+  flex-grow: 1;
+}
