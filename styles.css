@@ -194,7 +194,7 @@ p a {
   justify-content: left;
 }
 
-hr {
+.inflationAuth hr {
   width: 60px;
   height: 1px;
   background-color: #000;
@@ -253,7 +253,7 @@ iframe {
 .articleCaption {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 12px;
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
   line-height: 16px;
   font-weight: 400;
 }
@@ -286,18 +286,42 @@ iframe {
 
 .container {
   display: grid;
+  width: 1200px;
+  gap: 5px;
+  margin: 0 auto;
   grid-template-columns: repeat(4 1fr);
-  grid-template-areas: 
-  "one two three popular"
-  "four five six popular"
-  "seven eight nine popular";
+  grid-template-areas:
+    "one two three ten"
+    "four five six ten"
+    "seven eight nine ten";
+  grid-auto-rows: minmax(600px auto);
+}
+.container figcaption {
+  text-align: right;
+  color: #999999;
+  line-height: 12.3px;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+}
+.container h2 {
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+.container p {
+  font-size: 12px;
+  color: #999999;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.container img{
-  height: 220px;
+.container img {
+  height: 188px;
 }
 .item {
-  width: 200px;
+  width: 280px;
 }
 
 .first {
@@ -317,7 +341,7 @@ iframe {
 }
 
 .fifth {
-  grid-area: five; 
+  grid-area: five;
 }
 
 .sixth {
@@ -338,4 +362,23 @@ iframe {
 
 .popular {
   grid-area: ten;
+}
+
+.fourth hr {
+  width: 880px;
+  height: 1px;
+}
+
+.popular div {
+  color: black;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  line-height: 23px;
+  font-size: 19px;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+}
+
+.popular-div {
+  border-top: 1px solid rgb(226, 226, 226);
 }
