@@ -21,7 +21,7 @@ https://rawcdn.githack.com/pipe2442/New-York-Times-Clone/e8162118254b1883d346113
 
 👤 **Luis Felipe Angulo Torres**
 
-- Github: [@yahir91](https://github.com/yahir91)
+- Github: [@pipe2442](https://github.com/pipe2442)
 
 - Twitter: [@pipe2442](https://twitter.com/pipe2442)
 - Linkedin: [Luis Felipe Angulo Torres](https://www.linkedin.com/in/luis-felipe-angulo-torres-95098b139/)
